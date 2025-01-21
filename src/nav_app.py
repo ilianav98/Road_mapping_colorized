@@ -2,12 +2,10 @@ import tkinter as tk
 from tkinter import filedialog, simpledialog
 import geopandas as gpd
 import folium
-from folium import plugins
 import webview
-from shapely.geometry import Point
 import time
 import heapq
-from copy import deepcopy
+
 
 class MapApp:
     def __init__(self, root):
